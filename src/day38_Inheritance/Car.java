@@ -54,6 +54,7 @@ public class Car {
 
 
 
+
 }
 
 
@@ -74,10 +75,6 @@ Warmup task:
 
 
 
-			2. BMW:
-					extra methods:
-						breaksDown()
-						racing()
 
 			3. Tesla:
 					extra methods:
