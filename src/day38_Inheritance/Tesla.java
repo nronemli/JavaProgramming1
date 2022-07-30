@@ -12,3 +12,9 @@ public class Tesla extends Car {
 
 
 }
+
+/*
+	3. Tesla:
+					extra methods:
+						autoPilot();
+ */

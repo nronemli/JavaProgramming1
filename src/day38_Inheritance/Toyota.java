@@ -1,7 +1,7 @@
 package day38_Inheritance;
 
 //toyota is child class, inherits all car class
-public class Toyota extends Car{
+public class Toyota extends Car {
 
     //child class calls the constructor the parent class constructor
     //only a constructor can call another constructor

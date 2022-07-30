@@ -57,10 +57,6 @@ public class Car {
 
 }
 
-
-
-
-
 /*
 Warmup task:
 	carTask:
@@ -72,13 +68,4 @@ Warmup task:
 
 			instance methods:
 				start(), drive(),toString()
-
-
-
-
-			3. Tesla:
-					extra methods:
-						autoPilot();
-
-
  */
