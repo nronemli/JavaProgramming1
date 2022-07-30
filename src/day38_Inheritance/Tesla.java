@@ -10,7 +10,12 @@ public class Tesla extends Car {
         System.out.println(brand + " " + model + " can autopilot");
     }
 
+    //return type, access modifier and variable name has to be same as the parent class
+    @Override
+    public void start() {
+        System.out.println("Say start to start " + model + "  "+brand);
 
+    }
 }
 
 /*

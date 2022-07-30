@@ -11,15 +11,23 @@ public class Toyota extends Car {
         super("Toyota", model, year, price, color, miles);
     }
 
-//subclass can have own methods and variables
-    public void reliable(){
-        System.out.println(brand+ " is reliable "+model);
+    //subclass can have own methods and variables
+    public void reliable() {
+        System.out.println(brand + " is reliable " + model);
     }
+
+    @Override
+    public void start() {
+        System.out.println("Twist the key to ignition to start " + brand
+                + model);
+    }
+
+
 }
 
 /*
-    Create the following sub classes of Car:
+    Create the following subclasses of Car:
         1. Toyota:
         extra methods:
-        reliabile()
+        reliable()
  */

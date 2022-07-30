@@ -16,6 +16,10 @@ public class Bmw extends Car {
         System.out.println(model + " is great for racing");
     }
 
+    public void start() {
+        System.out.println("Enter a key to start the car" + brand + " " + model);
+    }
+
 
 }
 
