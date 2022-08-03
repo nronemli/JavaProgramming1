@@ -7,6 +7,7 @@ public class Zoo {
 
 
         Dog dog = new Dog();
+        Dog dog1= new Dog();
         dog.setInfo("Max", "Husky", 'M', "Small", 1, "White");
 
         dog.eat();

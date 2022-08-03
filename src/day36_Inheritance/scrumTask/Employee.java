@@ -2,6 +2,7 @@ package day36_Inheritance.scrumTask;
 
 public class Employee extends Person {
 
+
     public int id;
     public String jobTitle;
     public double salary;

@@ -38,6 +38,8 @@ public class Employee {
 
     public void setGender(char gender) {
         if (!(gender == 'M' || gender == 'F')) {
+            System.out.println("Wrong gender");
+            System.exit(1);
             return;
         }
         this.gender = gender;

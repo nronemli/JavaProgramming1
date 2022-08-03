@@ -28,8 +28,8 @@ public class Person {
     }
 
     //instance methods have direct access to static methods
-    //instance belongs to object, object came from class.
-    //to string method : INSTANCE METHOD
+    //    //instance belongs to object, object came from class.
+    //    //to string method : INSTANCE METHOD
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +

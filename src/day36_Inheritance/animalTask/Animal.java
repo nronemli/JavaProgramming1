@@ -23,6 +23,7 @@ public class Animal {
         System.out.println(name+" is moving");
     }
 
+
     public String toString() {
         return "Animal{" +
                 "name='" + name + '\'' +
