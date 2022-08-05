@@ -40,6 +40,7 @@ public class Animal {
         this.name = name;
     }
 
+    //serr = system error println
     public void setBreed(String breed) {
         if(name== null || name.isBlank() || name.isEmpty()){
             System.err.println("Cannot be null");
@@ -82,6 +83,7 @@ public class Animal {
         setName(name);
         setBreed(breed);
         setGender(gender);
+        setAge(age);
         setSize(size);
         setColor(color);
     }
@@ -113,6 +115,9 @@ public class Animal {
     public void move(){
         System.out.println(name+ " is moving");
     }
+
+
+
 
 }
 /*
