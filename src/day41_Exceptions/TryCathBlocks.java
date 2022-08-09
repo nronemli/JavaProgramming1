@@ -59,7 +59,6 @@ public class TryCathBlocks {
         }
 
         System.out.println("Cydeo");
-
         System.out.println("____________________________________");
 
         try {
@@ -67,13 +66,5 @@ public class TryCathBlocks {
         } catch (FileNotFoundException e) {
             e.printStackTrace(); //prints a stack trace (full details ) of exception
         }
-
-
-
-
-
-
     }
-
-
 }

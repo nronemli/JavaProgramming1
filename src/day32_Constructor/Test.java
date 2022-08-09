@@ -12,11 +12,13 @@ public class Test {
         System.out.println("B");
     }
 
+    //third constructor calling the second constructor
     public Test(double a) {
         this(10);  //A B
         System.out.println("C"); //A B C
     }
 
+    //fourth calling third constructor
     public Test(String str) { // A B C D
         this(10.0); //A B C
         System.out.println("D"); //A B C D

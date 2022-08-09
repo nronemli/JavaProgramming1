@@ -1,4 +1,4 @@
-package day40_FinalKeyword;
+package day39_Recap.cydeoTask.day40_FinalKeyword;
 
 //if you dont want the class to be inherited than create final class
 //variables are not final
