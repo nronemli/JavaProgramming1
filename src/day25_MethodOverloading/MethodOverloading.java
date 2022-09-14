@@ -28,8 +28,6 @@ public class MethodOverloading {
         return sumOfNumbers(num1,num2,num3)+num4;
     }
 
-
-
     public static void main(String[] args) {
         int[] intArray= {1,2,3,4,5,-1};
         Arrays.sort(intArray);

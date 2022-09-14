@@ -14,6 +14,4 @@ public final class Audi extends Car {
     public void autoPark(){
         System.out.println(getBrand()+ " " +getModel()+ " has auto-park feature");
     }
-
-
 }

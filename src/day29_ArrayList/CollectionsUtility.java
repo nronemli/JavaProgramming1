@@ -11,7 +11,6 @@ public class CollectionsUtility {
 
         System.out.println("*****************sort()***************");
         //sort()
-
         ArrayList<Integer> list = new ArrayList<>();
         list.addAll(Arrays.asList(10, 9, 8, 7, 6, 5, 4, 3, 2, 1));
 

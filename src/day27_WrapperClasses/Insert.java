@@ -12,8 +12,6 @@ public class Insert {
 
 					insert(arr, 2, 100) ==> {10, 20, 100, 30, 40, 50}
 */
-
-
     public static int[] insert(int[] array, int index, int element) {
 
         if (index < 0 || index >= array.length) {

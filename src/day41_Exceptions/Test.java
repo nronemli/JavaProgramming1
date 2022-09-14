@@ -9,21 +9,14 @@ public class Test {
         this(); //A
         System.out.println("B");
     }
-
     public Test(String str){
         this(); //A
        // this(100);
         System.out.println(str);
     }
 
-
-
     public static void main(String[] args) {
-
         Test obj = new Test();
-
-
-
     }
 
 }

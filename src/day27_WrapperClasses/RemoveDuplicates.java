@@ -53,7 +53,6 @@ public class RemoveDuplicates {
         for (String eachElement : array) {
             if (!ArraysUtility.contains(result, eachElement)) {
                 result = ArraysUtility.addElement(result, eachElement);
-
             }
         }
         return result;

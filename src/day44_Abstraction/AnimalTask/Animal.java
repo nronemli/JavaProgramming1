@@ -1,10 +1,7 @@
-package day44_Abstraction;
+package day44_Abstraction.AnimalTask;
 
 public abstract class Animal {
 
-    /*
-
-     */
     private String name;
     private final String breed;
     private final char gender;
@@ -12,9 +9,14 @@ public abstract class Animal {
     private String size;
     private final String color;
 
+
     //static: one copy
-//final: unchangeable
-    public final static boolean canBreath = true;
+    //final: unchangeable
+    public final static boolean canBreath;
+
+    static {
+        canBreath = true;
+    }
 
 
     public String getName() {
@@ -42,7 +44,7 @@ public abstract class Animal {
     }
 
     public void setName(String name) {
-        if(name.isEmpty()){
+        if (name.isEmpty()) {
             throw new RuntimeException("Invalid Name");
         }
         this.name = name;
@@ -68,12 +70,25 @@ public abstract class Animal {
         setSize(size);
         this.color = color;
     }
+
+    public abstract void eat();
+
+    public void drink(){
+        System.out.println(name + " is drinking water");
+    }
+
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + "{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
-
-
-
-
-
 /*
 Animal Task:
 		Create an abstract class named Animal:
@@ -82,7 +97,7 @@ Animal Task:
 
 			Encapsulate all the fields
 
-			Add a cosntructor that can set all the fields
+			Add a constructor that can set all the fields
 
 			Methods:
 				eat(); ==> different animals eat different foods
@@ -92,17 +107,12 @@ Animal Task:
 		Create the following subclasses of Animal:
 				Dog
 					eat(): eats Pizza
-
 				Cat
 					eat(): eats Biryani
-
 				Tiger
 					eat(): eats deer
-
 				Parrot
 					eat(): eats chocolate
-
 				Eagle
 					eat(): eats snake
-
  */

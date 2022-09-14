@@ -12,12 +12,9 @@ public class Task1 {
           //  System.out.println(count);
         }
         return count;
-
     }
-
     public static void main(String[] args) {
         System.out.println(frequencyOfWord("My name is nur nur nur nur", "nur"));
-
     }
 
 

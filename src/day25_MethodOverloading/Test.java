@@ -5,8 +5,6 @@ import utilities.StringUtility;
 public class Test {
 
     public static void main(String[] args) {
-
-
         String str = "Java Programming language";
         StringUtility.printEachChar(str);
 

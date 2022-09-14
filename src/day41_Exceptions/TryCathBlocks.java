@@ -8,8 +8,6 @@ import java.io.FileNotFoundException;
 public class TryCathBlocks {
 
     public static void main(String[] args) {
-
-
         System.out.println("Test1 started");
         try {
             System.out.println(9 / 0);    //Jumped to catch from here
@@ -19,8 +17,6 @@ public class TryCathBlocks {
             System.out.println("Arithmetic Exception was occured");
         }
         System.out.println("Test1 completed");
-
-
         System.out.println("____________________________________");
 
         int[] numbers = {1, 2, 3, 4, 5, 6};
@@ -48,19 +44,14 @@ public class TryCathBlocks {
             e.printStackTrace();
         }
         System.out.println("____________________________________");
-
-
         System.out.println("Hello");
-
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
         System.out.println("Cydeo");
         System.out.println("____________________________________");
-
         try {
             FileInputStream file = new FileInputStream("File path");
         } catch (FileNotFoundException e) {

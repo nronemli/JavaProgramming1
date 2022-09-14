@@ -47,6 +47,7 @@ public class Car {
 
 
     public void drive(){
+        start();
         System.out.println(brand+ " " +model + " is driving");
     }
 

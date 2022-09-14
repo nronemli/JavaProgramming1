@@ -6,8 +6,6 @@ public class ReturnStatement {
         nameOfDay(8);
     }
 
-
-
     public static void nameOfDay(int number) {
         String name = "";
         if (number >= 1 && number <= 7) {

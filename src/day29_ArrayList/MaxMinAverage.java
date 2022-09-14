@@ -8,7 +8,6 @@ public class MaxMinAverage {
 
 
         ArrayList<Integer> list = new ArrayList<>();
-
         list.add(1);
         list.add(2);
         list.add(3);
@@ -31,20 +30,14 @@ public class MaxMinAverage {
                 min = each;
             }
             sum += each;
-
-
         }
 
         double average= (double) sum / list.size();
         System.out.println("max = " + max);
         System.out.println("min = " + min);
         System.out.println("average = " + average);
-
-
     }
 }
-
-
 /*
 	2. Write a program that can find the maximum, minimum and average number from an arrayList of integers
  */

@@ -5,7 +5,6 @@ public class MorningWorkout {
 
         System.out.println("------------Push up started------------");
         //checked exception
-
         for (int i = 1; i <= 30; i++) {
             System.out.print("\r \t\t\tPush up " + i);
             sleep(1);
@@ -13,15 +12,11 @@ public class MorningWorkout {
         System.out.println("\n-----------Push up completed--------");
 
         System.out.println("-------------Pull up started----------");
-
-
         for (int i = 1; i < 20; i++) {
             System.out.print("\r \t\t\tPull up " + i);
             sleep(1);
         }
-
         System.out.println("\n-----------Pull up completed--------");
-
     }
 
     //SLEEP METHOD -- NEED IN SELENIUM
@@ -32,9 +27,5 @@ public class MorningWorkout {
             e.printStackTrace();
         }
     }
-
-
 }
-
-
 //Do 30 pushups and try pausing 1.5 seconds in each

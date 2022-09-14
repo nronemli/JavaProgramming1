@@ -46,7 +46,5 @@ public class CarObject {
         carList.removeIf(p-> p.brand.equals("BMW") && p.year >=2005 && p.year <=2008);
         carList.removeIf(p-> p.model.equals("Audi") && p.year>=2017);
         System.out.println(carList);
-
-
     }
 }

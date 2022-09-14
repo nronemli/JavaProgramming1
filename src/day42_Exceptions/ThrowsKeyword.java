@@ -4,29 +4,18 @@ package day42_Exceptions;
                                         //advantage: less block of code
 public class ThrowsKeyword {            //disadvantage: only for checked,
     public static void main(String[] args) throws InterruptedException{
-
         System.out.println("__________Test 1 _____________");
         System.out.println("Hello");
         Thread.sleep(3000);
         System.out.println("Cydeo");
-
         System.out.println("--------Test 1 Completed---------");
-
         System.out.println("__________Test 2 _____________");
         System.out.println("Hello");
         Thread.sleep(3000);
         System.out.println("Batch 9");
-
         System.out.println("--------Test 2 Completed--------");
-
-
-
-
-
-
     }
 }
-
 /*
 Unchecked exceptions: ONE WAY TO HANDLE
 Checked exceptions:TWO WAYS TO HANDLE
