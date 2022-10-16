@@ -11,7 +11,7 @@ public class ListIntro {
         //ARRAYLIST is the most common preferred list
 
         List<Integer> list1 = new ArrayList<>();
-        list1.addAll(Arrays.asList(10,20,30,40,50,60));
+        list1.addAll(Arrays.asList(10,20,30,40,50,60,10));
         System.out.println(list1.get(0));
 
         List<Integer> list2= new LinkedList<>();

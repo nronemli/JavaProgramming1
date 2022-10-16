@@ -30,10 +30,9 @@ public class Task2 {
         str = input.nextLine();
         System.out.println("Enter a character");
         char ch = input.next().charAt(0);
-
         /*
         < str.length();
-Index number is always less than length of the string.
+        Index number is always less than length of the string.
          */
         for (int i = 0; i < str.length(); i++) { //i :indexes of string
             char ch1 = str.charAt(i); //will get each character of string every time it runs the loops

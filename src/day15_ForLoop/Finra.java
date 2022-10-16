@@ -3,7 +3,6 @@ package day15_ForLoop;
 public class Finra {
     public static void main(String[] args) {
 
-
         for(int i =1; i <=100;i++) { //i, 1,2,3,4,5,6...10
             if (i % 15 == 0) {
                 System.out.print("FINRA "); //15,30,45...
@@ -14,10 +13,6 @@ public class Finra {
             }else {
                 System.out.print(i+" ");
             }
-
-
-
-
         }
 
 

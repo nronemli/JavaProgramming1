@@ -1,6 +1,6 @@
 package day16_DayLoopsStringPractice;
 
-public class Task4 {
+public class JavaJava {
     public static void main(String[] args) {
 
         String str = "Java Java Java Java";

@@ -14,13 +14,7 @@ public class ForEachLoop {
             for (int eachElement : each1Darray) {
                 System.out.print(eachElement + " ");
             }
-
         }
-
-
-
     }
-
-
 }
 

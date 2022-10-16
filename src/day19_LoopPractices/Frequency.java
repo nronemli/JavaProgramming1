@@ -20,7 +20,6 @@ public class Frequency {
                     count++;
                 }
             }
-
             if(result.contains(""+ch)){
                 continue;
             }

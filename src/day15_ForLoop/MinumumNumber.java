@@ -20,8 +20,6 @@ public class MinumumNumber {
             }
         }
         System.out.println("min: " + min);
-
-
         input.close();
 
     }

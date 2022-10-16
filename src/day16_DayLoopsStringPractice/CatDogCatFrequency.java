@@ -1,10 +1,7 @@
 package day16_DayLoopsStringPractice;
 
-import java.util.Locale;
-
-public class Task5 {
+public class CatDogCatFrequency {
     public static void main(String[] args) {
-
 
         String str = "caT dog dogG cAt cat dog";
         int cat = 0;
@@ -12,7 +9,7 @@ public class Task5 {
 
         for (int i = 0; i < str.length()-2; i++) {
             String word = str.substring(i, i + 3);
-          System.out.println(word);
+            System.out.println(word);
             if (word.equalsIgnoreCase("cat")) {
                 cat++;
             }

@@ -16,7 +16,6 @@ public class Task1 {
             char lInitial= names[i].charAt(names[i].indexOf(" ")+1);
             System.out.println(fInitial+ " "+lInitial);
         }
-
         System.out.println("-------FOR EACH LOOP---------");
 
         for (String eachName : names) {

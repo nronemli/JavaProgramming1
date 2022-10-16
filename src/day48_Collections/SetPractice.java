@@ -37,7 +37,7 @@ public class SetPractice {
         s.addAll(Arrays.asList(array));
 
         System.out.println("____________Task:Frequency of characters __________________________");
-        String str = "aaabbbccccddddeeeeee";
+        String str = "bbbaaaccccddddeeeeee";
         String result = ""; //a3b3c4d4e5
 
         for (String each : new LinkedHashSet<>(Arrays.asList(str.split("")))) {
@@ -49,7 +49,8 @@ public class SetPractice {
 
         System.out.println("_______Task:Return 5th element, remove duplicates_____________________");
         //return the 5th element after removing the duplicates! Do not change order of elements
-        Integer[] nums = {1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        Integer[] nums = {1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 1, 2, 3, 4, 5, 1, 2, 3,
+                4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         nums = new LinkedHashSet<>(Arrays.asList(nums)).toArray(new Integer[0]);
         System.out.println(Arrays.toString(nums));

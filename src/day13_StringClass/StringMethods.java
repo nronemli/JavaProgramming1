@@ -12,7 +12,6 @@ public class StringMethods {
         System.out.println("Third letter is : " +third);
 
         System.out.println("----------------------------------");
-
         String s1= "Aynur Onemli";
         //length returns the total character of the string
         int totalCharacter = s1.length();

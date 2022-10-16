@@ -15,9 +15,6 @@ public class Task3 {
                     System.out.print(eachArr1 + ",");
                 }
             }
-
         }
-
-
     }
 }

@@ -14,7 +14,7 @@ public class TryCathBlocks {
             System.out.println("Try block ");
         } catch (ArithmeticException e) {
             System.out.println("Catch block");
-            System.out.println("Arithmetic Exception was occured");
+            System.out.println("Arithmetic Exception was occurred");
         }
         System.out.println("Test1 completed");
         System.out.println("____________________________________");

@@ -18,7 +18,6 @@ public class PracticeTasks {
 
         //Task 2
         System.out.println("Enter two words: ");
-
         String word1 = input.next();
         String word2 = input.next();
 
